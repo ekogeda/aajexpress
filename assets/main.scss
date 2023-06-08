@@ -1,0 +1,25 @@
+// $font-size-root: 20px;
+$body-font-family: "Inter", sans-serif;
+$heading-font-family: "Inter";
+
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// h6 {
+//   color: #163476 !important;
+// }
+
+.apexcharts-legend-text,
+.apexcharts-menu {
+  color: grey !important;
+}
+
+.selectable > .v-input__details {
+  display: none !important;
+}
+
+.checked .v-selection-control__input {
+  justify-content: start !important;
+}
