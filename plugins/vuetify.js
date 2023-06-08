@@ -5,7 +5,7 @@ import { VDataTable } from 'vuetify/labs/VDataTable'
 
 export default defineNuxtPlugin(nuxtApp => {
   const vuetify = createVuetify({
-    ssr: false,
+    ssr: true,
     components: { ...components, VDataTable },
     directives,
     theme: {
